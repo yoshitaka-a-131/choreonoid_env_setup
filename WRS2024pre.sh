@@ -13,4 +13,7 @@ cmake .. -DBUILD_WRS2018=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_HAIRO_WORLD_
 make
 sudo make install
 cd
-cp 
+cp choreonoid_env_setup/registration_preliminaries.yaml choreonoid/ext/WRS2024PRE/registration/registration_preliminaries.yaml
+cp choreonoid_env_setup/registration_finals.yaml choreonoid/ext/WRS2024PRE/registration/registration_finals.yaml
+cp choreonoid_env_setup/AizuSpiderDS.cnoid choreonoid/ext/WRS2024PRE/project/AizuSpiderDS.cnoid
+cp choreonoid_env_setup/HobbyDrone.cnoid choreonoid/ext/WRS2024PRE/project/HobbyDrone.cnoid
