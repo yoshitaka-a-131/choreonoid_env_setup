@@ -339,3 +339,4 @@ layoutOfToolBars:
       - { name: "DisplayValueFormatBar", x: 0, priority: 5 }
     -
       - { name: "WRSUtilBar", x: 0, priority: 0 }
+
