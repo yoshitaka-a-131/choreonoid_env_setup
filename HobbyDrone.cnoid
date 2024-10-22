@@ -302,3 +302,4 @@ layoutOfToolBars:
       - { name: "CaptureBar", x: 1167, priority: 3 }
       - { name: "ImageViewBar", x: 1216, priority: 4 }
       - { name: "WRSUtilBar", x: 1451, priority: 0 }
+
