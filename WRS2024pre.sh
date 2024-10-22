@@ -4,7 +4,7 @@ sudo apt install git
 git clone https://github.com/choreonoid/choreonoid.git
 git clone https://github.com/wrs-frei-simulation/WRS-Pre-2024.git choreonoid/ext/WRS2024PRE
 git clone https://github.com/k38-suzuki/hairo-world-plugin.git choreonoid/ext/hairo-world-plugin
-git clone 
+git clone https://github.com/yoshitaka-a-131/choreonoid_env_setup.git
 git pull
 cd choreonoid
 misc/script/install-requisites-ubuntu-22.04.sh
