@@ -66,3 +66,4 @@ registrations:
     robot_alignment: X-
     start_position: [ -4.0, 7.0, 0.0 ]
     simulator_project: [  project_20241003/AISTSimulator ]
+
