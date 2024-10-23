@@ -9,7 +9,7 @@ registrations:
     robot_project: *RobotList
     robot_alignment: X+
     start_position: [ -9.5, -7.0, 0.0 ]
-    simulator_project: [ project_20241004/AISTSimulator ]
+    simulator_project: [ project_20241004/AGXSimulator, project_20241004/AISTSimulator ]
     view_project: M2/RefereeView
     enable_recording: true
     # enable_tracking: true
@@ -27,13 +27,13 @@ registrations:
     task_project: [ M2/A3, M2/A4, M2/Common, M2/SG-A3 ]
     robot_alignment: Y+
     start_position: [ 7.0, 4.0, 0.0 ]
-    simulator_project: [ project_20241003/AISTSimulator ]
+    simulator_project: [ project_20241003/AGXSimulator, project_20241003/AISTSimulator ]
   - <<: *Mission2
     name: M2-A4_AizuSpiderDS
     task_project: [ M2/A4, M2/A1, M2/Common, M2/SG-A4 ]
     robot_alignment: X-
     start_position: [ -4.0, 7.0, 0.0 ]
-    simulator_project: [  project_20241003/AISTSimulator ]
+    simulator_project: [ project_20241003/AGXSimulator, project_20241003/AISTSimulator ]
     
   - &Mission2_2
     name: M2_HobbyDrone
@@ -41,7 +41,7 @@ registrations:
     robot_project: *RobotList2
     robot_alignment: X+
     start_position: [ -9.5, -7.0, 0.0 ]
-    simulator_project: [ project_20241004/AISTSimulator ]
+    simulator_project: [ project_20241004/AGXSimulator, project_20241004/AISTSimulator ]
     view_project: M2/RefereeView
     enable_recording: true
     # enable_tracking: true
@@ -59,11 +59,11 @@ registrations:
     task_project: [ M2/A3, M2/A4, M2/Common, M2/SG-A3 ]
     robot_alignment: Y+
     start_position: [ 7.0, 4.0, 0.0 ]
-    simulator_project: [ project_20241003/AISTSimulator ]
+    simulator_project: [ project_20241003/AGXSimulator, project_20241003/AISTSimulator ]
   - <<: *Mission2_2
     name: M2-A4_HobbyDrone
     task_project: [ M2/A4, M2/A1, M2/Common, M2/SG-A4 ]
     robot_alignment: X-
     start_position: [ -4.0, 7.0, 0.0 ]
-    simulator_project: [  project_20241003/AISTSimulator ]
+    simulator_project: [ project_20241003/AGXSimulator, project_20241003/AISTSimulator ]
 
