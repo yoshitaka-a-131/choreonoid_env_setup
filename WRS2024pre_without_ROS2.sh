@@ -16,6 +16,3 @@ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBU
 make
 sudo make install
 gnome-terminal -- bash "$HOME/WRS2024pre_env_setup/ROS2.sh"
-
-
-
