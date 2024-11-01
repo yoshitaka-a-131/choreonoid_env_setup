@@ -15,6 +15,7 @@ cd build
 cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_WRS2018=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_HAIRO_WORLD_PLUGIN=ON -DENABLE_INSTALL_RPATH_USE_LINK_PATH=ON
 make
 sudo make install
+gnome-terminal --window --profile=profile1 -- bash -c "cd ; WRS2024pre_env_setup/ROS2.sh"
 
 
 
