@@ -10,7 +10,7 @@ git clone https://github.com/k38-suzuki/hairo-world-plugin.git choreonoid/ext/ha
 git clone https://github.com/k38-suzuki/choreonoid_ros2_sample_drone_tutorial.git
 git clone https://github.com/yoshitaka-a-131/choreonoid_env_setup.git
 cp $HOME/choreonoid_env_setup/registration_preliminaries.yaml $HOME/ros2_ws/src/choreonoid/ext/WRS2024PRE/registration/registration_preliminaries.yaml
-cp $HOME/choreonoid_env_setup/registration_finals.yaml $HOME/ros2_wa/src/choreonoid/ext/WRS2024PRE/registration/registration_finals.yaml
+cp $HOME/choreonoid_env_setup/registration_finals.yaml $HOME/ros2_ws/src/choreonoid/ext/WRS2024PRE/registration/registration_finals.yaml
 cd choreonoid
 misc/script/install-requisites-ubuntu-22.04.sh
 rosdep install -y --from-paths ~/ros2_ws/src --ignore-src
