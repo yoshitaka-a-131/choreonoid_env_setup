@@ -18,3 +18,4 @@ rosdep install -y --from-paths ~/ros2_ws/src --ignore-src
 cd ~/ros2_ws
 colcon build --symlink-install --cmake-args -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_WRS2018=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_HAIRO_WORLD_PLUGIN=ON -DENABLE_INSTALL_RPATH_USE_LINK_PATH=ON
 echo "source $HOME/ros2_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
