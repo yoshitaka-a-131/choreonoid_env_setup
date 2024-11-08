@@ -23,4 +23,8 @@ cp $HOME/choreonoid_env_setup/WRS2024pre_preliminaries.desktop $HOME/デスク�
 cp $HOME/choreonoid_env_setup/WRS2024pre_finals.desktop $HOME/デスクトップ/WRS2024pre_finals.desktop
 chmod +x $HOME/choreonoid_env_setup/WRS2024pre_preliminaries.sh
 chmod +x $HOME/choreonoid_env_setup/WRS2024pre_finals.sh
+gio set $HOME/デスクトップ/WRS2024pre_preliminaries.desktop metadata::trusted true
+chmod 774 $HOME/デスクトップ/WRS2024pre_preliminaries.desktop
+gio set $HOME/デスクトップ/WRS2024pre_finals.desktop metadata::trusted true
+chmod 774 $HOME/デスクトップ/WRS2024pre_finals.desktop
 
