@@ -19,9 +19,8 @@ cd ~/ros2_ws
 colcon build --symlink-install --cmake-args -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_WRS2018=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_HAIRO_WORLD_PLUGIN=ON -DENABLE_INSTALL_RPATH_USE_LINK_PATH=ON
 echo "source $HOME/ros2_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
-cp $HOME/choreonoid_env_setup/WRS2024pre_preliminaries.sh $HOME/デスクトップ/WRS2024pre_preliminaries.sh
-cp $HOME/choreonoid_env_setup/WRS2024pre_finals.sh $HOME/デスクトップ/WRS2024pre_finals.sh
-chmod +x $HOME/デスクトップ/WRS2024pre_preliminaries.sh
-chmod +x $HOME/デスクトップ/WRS2024pre_finals.sh
-cd
-gsettings set org.gnome.nautilus.preferences executable-text-activation ask
+cp $HOME/choreonoid_env_setup/WRS2024pre_preliminaries.desktop $HOME/デスクトップ/WRS2024pre_preliminaries.desktop
+cp $HOME/choreonoid_env_setup/WRS2024pre_finals.desktop $HOME/デスクトップ/WRS2024pre_finals.desktop
+chmod +x $HOME/choreonoid_env_setup/WRS2024pre_preliminaries.sh
+chmod +x $HOME/choreonoid_env_setup/WRS2024pre_finals.sh
+
