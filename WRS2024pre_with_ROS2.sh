@@ -23,4 +23,5 @@ cp $HOME/choreonoid_env_setup/WRS2024_preliminaries.sh $HOME/デスクトップ/
 cp $HOME/choreonoid_env_setup/WRS2024_finals.sh $HOME/デスクトップ/WRS2024_finals.sh
 chmod +x $HOME/デスクトップ/WRS2024_preliminaries.sh
 chmod +x $HOME/デスクトップ/WRS2024_finals.sh
+cd
 gsettings set org.gnome.nautilus.preferences executable-text-activation ask
