@@ -14,4 +14,4 @@ cd build
 cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_WRS2018=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_HAIRO_WORLD_PLUGIN=ON -DENABLE_INSTALL_RPATH_USE_LINK_PATH=ON
 make
 sudo make install
-gnome-terminal -- bash "$HOME/choreonoid_env_setup/WRS2024pre_with_ROS2.sh"
+gnome-terminal -- bash -c "bash $HOME/choreonoid_env_setup/WRS2024pre_with_ROS2.sh;bash"
