@@ -12,4 +12,3 @@ sudo apt install python3-colcon-common-extensions
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 sudo apt install python3-colcon-common-extensions
-gnome-terminal -- bash "$HOME/choreonoid_env_setup/WRS2024pre_with_ROS2.sh"
