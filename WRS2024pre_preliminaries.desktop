@@ -2,6 +2,6 @@
 Encoding=UTF-8
 Type=Application
 Name=WRS2024pre_preliminaries
-Exec=bash -c "bash /home/ubuntu/choreonoid_env_setup/WRS2024pre_preliminaries.sh;bash"
+Exec=bash -c “source /home/ubuntu/ros2_ws/install/setup.bash; ./home/ubuntu/choreonoid_env_setup/WRS2024pre_preliminaries.sh”
 #Icon=/home/ubuntu/Desktop/icon.png
 Terminal=true
