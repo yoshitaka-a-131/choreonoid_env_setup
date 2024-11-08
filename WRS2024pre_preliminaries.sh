@@ -1,3 +1,2 @@
 #!/bin/bash
-gnome-terminal -- bash -c "echo 'シェルスクリプト実効完了！'"
-ros2 launch choreonoid_ros WRS2024pre_preliminaries.launch.xml
+gnome-terminal -- bash -c "bash $HOME/choreonoid_env_setup/WRS2024pre_preliminaries.sh;bash"
