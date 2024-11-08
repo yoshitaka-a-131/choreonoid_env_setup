@@ -1,2 +1,2 @@
 #!/bin/bash
-gnome-terminal -- bash -c "bash $HOME/choreonoid_env_setup/WRS2024pre_preliminaries2.sh;bash"
+ros2 launch choreonoid_ros WRS2024pre_preliminaries.launch.xml
