@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=My script
+Comment=Test hello world script
+Exec=home/ubuntu/choreonoid_env_setup/WRS2024pre_preliminaries.sh
+#Icon=/home/user/youricon.png
+Terminal=false
+Type=Application
