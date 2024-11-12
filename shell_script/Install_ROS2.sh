@@ -1,3 +1,4 @@
+#!/bin/bash
 cd
 sudo apt install -y software-properties-common
 sudo add-apt-repository universe
