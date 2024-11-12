@@ -2,6 +2,6 @@
 Encoding=UTF-8
 Type=Application
 Name=WRS2024pre_finals
-Exec=bash -c  "source /home/ubuntu/ros2_ws/install/setup.bash; bash /home/ubuntu/choreonoid_env_setup/WRS2024pre_finals.sh;bash"
+Exec=bash -c  "source /home/ubuntu/ros2_ws/install/setup.bash; bash /home/ubuntu/choreonoid_env_setup/desktop/WRS2024pre_finals.sh;bash"
 #Icon=/home/ubuntu/Desktop/icon.png
 Terminal=true
