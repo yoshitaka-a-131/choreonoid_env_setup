@@ -1,3 +1,4 @@
+#!/bin/bash
 cd
 wget -P $HOME/choreonoid_env_setup/shell_script https://www.algoryx.se/download/installers/old/agx-2.38.0.0-amd64-ubuntu_22.04.deb
 sudo dpkg -i $HOME/choreonoid_env_setup/shell_script/agx-2.38.0.0-amd64-ubuntu_22.04.deb
