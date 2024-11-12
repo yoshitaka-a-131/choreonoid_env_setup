@@ -1,5 +1,6 @@
+#!/bin/bash
 cd
-sudo apt install -y python-rosdep
+sudo apt install -y python3-rosdep
 mkdir -p ~/ros2_ws/src
 cd ros2_ws
 cd src
