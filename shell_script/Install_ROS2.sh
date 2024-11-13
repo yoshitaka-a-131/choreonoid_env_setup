@@ -12,4 +12,3 @@ sudo apt install -y ros-humble-compressed-image-transport
 sudo apt install -y python3-colcon-common-extensions
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
-sudo apt install python3-colcon-common-extensions
