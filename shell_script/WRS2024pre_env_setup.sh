@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-read line < select.txt
+read line < $HOME/choreonoid_env_setup/shell_script/select.txt
 
 if echo "$line" | grep -q "1"; then
   bash $HOME/choreonoid_env_setup/shell_script/Install_AGX.sh
