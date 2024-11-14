@@ -20,7 +20,7 @@ else
 fi
 
 if echo "$line" | grep -q "4"; then
-  bash $HOME/choreonoid_env_setup/shell_script/WRS2024pre_with_ROS2_new_window.sh
+  bash $HOME/choreonoid_env_setup/shell_script/WRS2024pre_with_ROS2.sh
 else
   :
 fi
