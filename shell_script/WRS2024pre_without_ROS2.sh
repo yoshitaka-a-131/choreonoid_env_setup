@@ -1,5 +1,6 @@
 #!/bin/bash
 cd
+source /opt/Algoryx/AGX-2.38.0.0/setup_env.bash
 git clone https://github.com/choreonoid/choreonoid.git
 git clone https://github.com/wrs-frei-simulation/WRS-Pre-2024.git choreonoid/ext/WRS2024PRE
 git clone https://github.com/k38-suzuki/hairo-world-plugin.git choreonoid/ext/hairo-world-plugin
