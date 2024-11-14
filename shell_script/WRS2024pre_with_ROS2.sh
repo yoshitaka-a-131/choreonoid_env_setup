@@ -1,5 +1,6 @@
 #!/bin/bash
 cd
+source /opt/ros/humble/setup.bash
 sudo apt install -y python3-rosdep
 mkdir -p ~/ros2_ws/src
 cd ros2_ws
