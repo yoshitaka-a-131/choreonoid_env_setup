@@ -10,5 +10,8 @@ sudo apt upgrade -y
 sudo apt install -y ros-humble-desktop
 sudo apt install -y ros-humble-compressed-image-transport
 sudo apt install -y python3-colcon-common-extensions
+
+sudo rosdep init
+rosdep update
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
