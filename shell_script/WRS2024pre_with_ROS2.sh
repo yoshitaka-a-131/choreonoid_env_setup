@@ -27,8 +27,6 @@ sed -i '12a DIRECTORY launch' CMakeLists.txt
 sed -i '13a DESTINATION share/${PROJECT_NAME}/' CMakeLists.txt 
 sed -i '14a )' CMakeLists.txt 
 cd ~/ros2_ws
-sudo rosdep init
-rosdep update
 rosdep install -y --from-paths ~/ros2_ws/src --ignore-src
 colcon build --symlink-install --cmake-args -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_WRS2018=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_HAIRO_WORLD_PLUGIN=ON -DENABLE_INSTALL_RPATH_USE_LINK_PATH=ON
 echo "source $HOME/ros2_ws/install/setup.bash" >> ~/.bashrc
