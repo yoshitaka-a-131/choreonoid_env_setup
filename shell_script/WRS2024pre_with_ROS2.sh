@@ -12,7 +12,7 @@ git clone https://github.com/choreonoid/choreonoid_ros2_mobile_robot_tutorial.gi
 git clone https://github.com/wrs-frei-simulation/WRS-Pre-2024.git choreonoid/ext/WRS2024PRE
 git clone https://github.com/k38-suzuki/hairo-world-plugin.git choreonoid/ext/hairo-world-plugin
 git clone https://github.com/k38-suzuki/choreonoid_ros2_sample_drone_tutorial.git
-cp -r $HOME/choreonoid_env_setup/choreonoid_ros2_sample_wrs2024pre $HOME/ros2_ws/src
+cp -r $HOME/choreonoid_env_setup/choreonoid_ros2_wrs2024pre_sample $HOME/ros2_ws/src
 cd choreonoid
 misc/script/install-requisites-ubuntu-22.04.sh
 cd ~/ros2_ws
