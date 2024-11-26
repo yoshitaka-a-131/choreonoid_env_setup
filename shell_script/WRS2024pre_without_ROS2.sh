@@ -5,7 +5,6 @@ export LD_LIBRARY_PATH=/opt/Algoryx/AGX-2.38.0.0/lib:$LD_LIBRARY_PATH
 git clone https://github.com/choreonoid/choreonoid.git
 git clone https://github.com/wrs-frei-simulation/WRS-Pre-2024.git choreonoid/ext/WRS2024PRE
 git clone https://github.com/k38-suzuki/hairo-world-plugin.git choreonoid/ext/hairo-world-plugin
-git pull
 cd choreonoid
 misc/script/install-requisites-ubuntu-22.04.sh
 mkdir build
