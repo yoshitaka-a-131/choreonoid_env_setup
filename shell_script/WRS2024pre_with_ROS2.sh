@@ -1,5 +1,7 @@
 #!/bin/bash
 cd
+source /opt/Algoryx/AGX-2.38.0.0/setup_env.bash
+export LD_LIBRARY_PATH=/opt/Algoryx/AGX-2.38.0.0/lib:$LD_LIBRARY_PATH
 source /opt/ros/humble/setup.bash
 mkdir -p ~/ros2_ws/src
 cd ros2_ws
