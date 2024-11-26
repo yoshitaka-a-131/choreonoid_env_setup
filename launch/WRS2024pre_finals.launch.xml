@@ -1,5 +1,0 @@
-<launch>
-  <arg name="choreonoid_arg" default=""/>
-  <node name="choreonoid" pkg="choreonoid_ros" exec="choreonoid" args="/home/ubuntu/choreonoid_env_setup/registration/registration_finals.yaml" output="screen"/>
-  <node pkg="choreonoid_ros2_sample_drone_tutorial" exec="node" name="joy_node" respawn="true"/>
-</launch>
